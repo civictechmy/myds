@@ -1,14 +1,14 @@
 import { fn } from "@storybook/test";
 import type { Meta, StoryObj } from "@storybook/react";
 import { createStory, createRender } from "../utils";
-import { Label } from "@govtechmy/myds-react/label";
-import { Checkbox } from "@govtechmy/myds-react/checkbox";
-import { Toggle, ToggleThumb } from "@govtechmy/myds-react/toggle";
+import { Label } from "@civictechmy/myds-react/label";
+import { Checkbox } from "@civictechmy/myds-react/checkbox";
+import { Toggle, ToggleThumb } from "@civictechmy/myds-react/toggle";
 
 /**
  * ### Overview
  *
- * The Label component from @govtechmy/myds-react/label is a customizable UI element used to associate text with form controls like checkboxes and toggles. It accepts props such as htmlFor to link it to a specific form element and size to adjust its appearance. This component ensures accessibility and consistent styling across the application.
+ * The Label component from @civictechmy/myds-react/label is a customizable UI element used to associate text with form controls like checkboxes and toggles. It accepts props such as htmlFor to link it to a specific form element and size to adjust its appearance. This component ensures accessibility and consistent styling across the application.
  *
  *
  * > Label cantik dipandang mata,
@@ -19,7 +19,7 @@ import { Toggle, ToggleThumb } from "@govtechmy/myds-react/toggle";
  *
  * ### Usage
  * ```tsx
- * import Label from "@govtechmy/myds-react/label";
+ * import Label from "@civictechmy/myds-react/label";
  *
  *  <Label htmlFor="checkbox" size={size}>
  *   Auto-delete notifications
@@ -28,7 +28,7 @@ import { Toggle, ToggleThumb } from "@govtechmy/myds-react/toggle";
  * ```
  */
 const meta = {
-  title: "@govtechmy/myds-react/Label",
+  title: "@civictechmy/myds-react/Label",
   component: Label,
   tags: ["autodocs"],
   parameters: {

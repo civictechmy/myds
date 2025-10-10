@@ -1,24 +1,17 @@
-# Malaysian Government Design System (MYDS)
+# Forked MYDS 
 
-![myds-hero-img](https://d2391uizq0pg2.cloudfront.net/design/myds-hero-img.png)
+## Disclaimer
 
-> The Malaysian Government Design System (MYDS) contains the design guideline and the component library for creating consistent and accessible digital services across the Malaysian government.
+@civitechmy is not affiliated with or endorsed by the Government of Malaysia.
 
-There are two (2) key products in MYDS:
+## What's inside?
 
-1. **Design Language Guideline**: Aimed at designers and project managers, this guideline provides the principles, standards, and best practices for designing user interfaces that are cohesive and user-friendly.
-2. **Component Library**: Targeted at developers, this library offers a collection of reusable UI components that adhere to the design language guidelines, ensuring consistency and efficiency in development.
+1. Documentation
+2. Component Library
+3. Chart Library -- soon
 
-## Documentation
+We publish packages under `@civictechmy` on npm
 
-1. Design Guideline: https://design.digital.gov.my/en/docs/design
-2. Component Library: https://design.digital.gov.my/en/docs/develop
-
-## Contributing
-
-MYDS is an open-source project and welcomes contributions from the public. To contribute, please read our [contributing guideline](./CONTRIBUTING.md)
-
-We look forward to see what you may bring to MYDS.
 
 ---
 
@@ -42,4 +35,4 @@ To solve this, add the following in your VSCode **Workspace settings** (_Not you
 
 This will override Intellisense's auto-config-locator to point to the defined config files and together with its glob scope.
 
-Made with ❤️ by GNU, Kementerian Digital
+Made with ❤️ by MY tech folks

@@ -11,7 +11,7 @@ import {
   SearchBarResultsItem,
   SearchBarResultsGroup,
   SearchBarHint,
-} from "@govtechmy/myds-react/search-bar";
+} from "@civictechmy/myds-react/search-bar";
 import { ComponentProps, useEffect, useRef, useState } from "react";
 import {
   ChevronRightIcon,
@@ -19,8 +19,8 @@ import {
   StarIcon,
   TrophyIcon,
   UserIcon,
-} from "@govtechmy/myds-react/icon";
-import { Pill } from "@govtechmy/myds-react/pill";
+} from "@civictechmy/myds-react/icon";
+import { Pill } from "@civictechmy/myds-react/pill";
 
 /**
  * ### Overview
@@ -39,7 +39,7 @@ import { Pill } from "@govtechmy/myds-react/pill";
  *   SearchBarResultsItem,
  *   SearchBarResultsGroup,
  *   SearchBarHint,
- * } from "@govtechmy/myds-react/search-bar";
+ * } from "@civictechmy/myds-react/search-bar";
  *
  * <SearchBar size="large">
  *   <SearchBarInputContainer>
@@ -70,7 +70,7 @@ import { Pill } from "@govtechmy/myds-react/pill";
  * ```
  */
 const meta = {
-  title: "@govtechmy/myds-react/SearchBar",
+  title: "@civictechmy/myds-react/SearchBar",
   component: SearchBar,
   tags: ["autodocs"],
   parameters: {

@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Checkbox } from "@govtechmy/myds-react/checkbox";
+import { Checkbox } from "@civictechmy/myds-react/checkbox";
 import { createStory } from "../utils";
-import { Label } from "@govtechmy/myds-react/label";
+import { Label } from "@civictechmy/myds-react/label";
 
 /**
  * ### Overview
@@ -21,7 +21,7 @@ import { Label } from "@govtechmy/myds-react/label";
  *
  * ### Usage
  * ```tsx
- * import { Checkbox } from "@govtechmy/myds-react/checkbox";
+ * import { Checkbox } from "@civictechmy/myds-react/checkbox";
  *
  * // Default checkbox (small size)
  * <Checkbox>Default Checkbox</Checkbox>
@@ -40,7 +40,7 @@ import { Label } from "@govtechmy/myds-react/label";
  * ```
  */
 const meta: Meta<typeof Checkbox> = {
-  title: "@govtechmy/myds-react/Checkbox",
+  title: "@civictechmy/myds-react/Checkbox",
   component: Checkbox,
   parameters: {
     layout: "centered",

@@ -4,7 +4,7 @@ import FooterMyds from "./FooterMyds";
 import MastheadMyds from "./MastheadMyds";
 import NavbarMyds from "./NavbarMyds";
 import { Outlet, useNavigate } from "react-router-dom";
-import { Button } from "@govtechmy/myds-react/button";
+import { Button } from "@civictechmy/myds-react/button";
 
 export default function LayoutMain() {
   const navigate = useNavigate();

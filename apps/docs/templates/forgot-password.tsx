@@ -1,10 +1,10 @@
 "use client"
 
-import { Input } from "@govtechmy/myds-react/input";
-import { Button } from "@govtechmy/myds-react/button";
-import { Label } from "@govtechmy/myds-react/label";
-import { Link } from "@govtechmy/myds-react/link";
-import { CheckCircleIcon } from "@govtechmy/myds-react/icon";
+import { Input } from "@civictechmy/myds-react/input";
+import { Button } from "@civictechmy/myds-react/button";
+import { Label } from "@civictechmy/myds-react/label";
+import { Link } from "@civictechmy/myds-react/link";
+import { CheckCircleIcon } from "@civictechmy/myds-react/icon";
 
 export function ForgotPasswordTemplate() {
   return (

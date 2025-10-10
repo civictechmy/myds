@@ -6,7 +6,7 @@ import {
   BreadcrumbLink,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@govtechmy/myds-react/breadcrumb";
+} from "@civictechmy/myds-react/breadcrumb";
 import React from "react";
 
 /**
@@ -27,7 +27,7 @@ import React from "react";
  *    BreadcrumbPage,
  *    BreadcrumbSeparator,
  *    BreadcrumbEllipsis,
- *  } from "@govtechmy/myds-react/breadcrumb";
+ *  } from "@civictechmy/myds-react/breadcrumb";
  *
  * <Breadcrumb>
  *    <BreadcrumbItem>
@@ -45,7 +45,7 @@ import React from "react";
  * ```
  */
 const meta: Meta = {
-  title: "@govtechmy/myds-react/Breadcrumb",
+  title: "@civictechmy/myds-react/Breadcrumb",
   component: Breadcrumb,
   parameters: {
     layout: "centered",

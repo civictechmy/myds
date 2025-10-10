@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { createStory } from "../utils";
-import { Spinner } from "@govtechmy/myds-react/spinner";
-import { Button } from "@govtechmy/myds-react/button";
+import { Spinner } from "@civictechmy/myds-react/spinner";
+import { Button } from "@civictechmy/myds-react/button";
 
 /**
  * ### Overview
@@ -9,13 +9,13 @@ import { Button } from "@govtechmy/myds-react/button";
  *
  * ### Usage
  * ```tsx
- * import { Spinner } from "@govtechmy/myds-react/spinner";
+ * import { Spinner } from "@civictechmy/myds-react/spinner";
  *
  * <Spinner />
  * ```
  */
 const meta = {
-  title: "@govtechmy/myds-react/Spinner",
+  title: "@civictechmy/myds-react/Spinner",
   component: Spinner,
   tags: ["autodocs"],
   parameters: {

@@ -5,8 +5,8 @@ import {
   AnnounceBar,
   AnnounceBarDescription,
   AnnounceBarTag,
-} from "@govtechmy/myds-react/announce-bar";
-import { Link } from "@govtechmy/myds-react/link";
+} from "@civictechmy/myds-react/announce-bar";
+import { Link } from "@civictechmy/myds-react/link";
 
 /**
  * ### Overview
@@ -19,7 +19,7 @@ import { Link } from "@govtechmy/myds-react/link";
  *
  * ### Usage
  * ```tsx
- * import { AnnounceBar, AnnounceBarDescription, AnnounceBarProps, AnnounceBarTag } from "@govtechmy/myds-react/announce-bar";
+ * import { AnnounceBar, AnnounceBarDescription, AnnounceBarProps, AnnounceBarTag } from "@civictechmy/myds-react/announce-bar";
  *
  * <AnnounceBar {...args}>
  *       <AnnounceBarTag variant="primary" mode="pill">
@@ -32,7 +32,7 @@ import { Link } from "@govtechmy/myds-react/link";
  * ```
  */
 const meta = {
-  title: "@govtechmy/myds-react/AnnounceBar",
+  title: "@civictechmy/myds-react/AnnounceBar",
   component: AnnounceBar,
   tags: ["autodocs"],
   parameters: {

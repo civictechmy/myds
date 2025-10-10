@@ -1,5 +1,5 @@
 {
-  "name": "@govtechmy/myds-react",
+  "name": "@civictechmy/myds-react",
   "version": "1.0.2",
   "scripts": {
     "dev": "tsup --watch",

@@ -6,14 +6,14 @@ import {
   SiteLinkGroup,
   SiteLink,
   FooterLogo,
-} from "@govtechmy/myds-react/footer";
-import { Link } from "@govtechmy/myds-react/link";
+} from "@civictechmy/myds-react/footer";
+import { Link } from "@civictechmy/myds-react/link";
 import {
   FacebookIcon,
   InstagramIcon,
   TwitterXIcon,
   YoutubeIcon,
-} from "@govtechmy/myds-react/icon";
+} from "@civictechmy/myds-react/icon";
 
 /**
  * ### Overview
@@ -30,7 +30,7 @@ import {
  *   FooterSection,
  *   SiteLinkGroup,
  *   SiteLink
- * } from "@govtechmy/myds-react/footer";
+ * } from "@civictechmy/myds-react/footer";
  *
  * <Footer>
  *   <FooterSection>
@@ -46,7 +46,7 @@ import {
  */
 
 const meta = {
-  title: "@govtechmy/myds-react/Footer",
+  title: "@civictechmy/myds-react/Footer",
   component: Footer,
   tags: ["autodocs"],
   parameters: {

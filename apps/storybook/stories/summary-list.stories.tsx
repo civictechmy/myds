@@ -9,10 +9,10 @@ import {
   SummaryListDetail,
   SummaryListRow,
   SummaryListAddition,
-} from "@govtechmy/myds-react/summary-list";
-import { Tag } from "@govtechmy/myds-react/tag";
-import { Button } from "@govtechmy/myds-react/button";
-import { SwapIcon } from "@govtechmy/myds-react/icon";
+} from "@civictechmy/myds-react/summary-list";
+import { Tag } from "@civictechmy/myds-react/tag";
+import { Button } from "@civictechmy/myds-react/button";
+import { SwapIcon } from "@civictechmy/myds-react/icon";
 
 /**
  * ### Overview
@@ -21,7 +21,7 @@ import { SwapIcon } from "@govtechmy/myds-react/icon";
  */
 
 const meta = {
-  title: "@govtechmy/myds-react/SummaryList",
+  title: "@civictechmy/myds-react/SummaryList",
   component: SummaryList,
   tags: ["autodocs"],
   parameters: {

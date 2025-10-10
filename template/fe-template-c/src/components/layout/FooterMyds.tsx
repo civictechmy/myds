@@ -5,14 +5,14 @@ import {
   SiteLinkGroup,
   SiteLink,
   FooterLogo,
-} from "@govtechmy/myds-react/footer";
+} from "@civictechmy/myds-react/footer";
 import {
   FacebookIcon,
   TwitterXIcon,
   InstagramIcon,
   YoutubeIcon,
-} from "@govtechmy/myds-react/icon";
-import { Link } from "@govtechmy/myds-react/link";
+} from "@civictechmy/myds-react/icon";
+import { Link } from "@civictechmy/myds-react/link";
 
 export default function FooterMyds() {
   return (

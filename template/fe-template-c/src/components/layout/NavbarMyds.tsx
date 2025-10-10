@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { Button, ButtonIcon } from "@govtechmy/myds-react/button";
-import { SearchIcon, GlobeIcon } from "@govtechmy/myds-react/icon";
+import { Button, ButtonIcon } from "@civictechmy/myds-react/button";
+import { SearchIcon, GlobeIcon } from "@civictechmy/myds-react/icon";
 import {
   Navbar,
   NavbarLogo,
@@ -9,15 +9,15 @@ import {
   NavbarMenuItem,
   NavbarMenuDropdown,
   NavbarAction,
-} from "@govtechmy/myds-react/navbar";
+} from "@civictechmy/myds-react/navbar";
 import {
   Select,
   SelectTrigger,
   SelectValue,
   SelectContent,
   SelectItem,
-} from "@govtechmy/myds-react/select";
-import { ThemeSwitch } from "@govtechmy/myds-react/theme-switch";
+} from "@civictechmy/myds-react/select";
+import { ThemeSwitch } from "@civictechmy/myds-react/theme-switch";
 import i18n from "../../i18n";
 
 export default function NavbarMyds() {

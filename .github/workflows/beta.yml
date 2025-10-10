@@ -33,8 +33,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build @govtechmy/myds-react
-        run: pnpm build --filter=@govtechmy/myds-react
+      - name: Build @civictechmy/myds-react
+        run: pnpm build --filter=@civictechmy/myds-react
 
       - name: Enter prerelease mode if not already
         run: pnpm changeset pre enter beta || true
@@ -53,7 +53,7 @@ jobs:
       - name: Publish beta package
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: pnpm publish --tag beta --access public --filter=@govtechmy/myds-react
+        run: pnpm publish --tag beta --access public --filter=@civictechmy/myds-react
 
       - name: Push tags
         run: |

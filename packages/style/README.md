@@ -6,17 +6,17 @@
 
 ## Getting started
 
-To install `@govtechmy/myds-style` in your project, run the installation command for the package manager of your choice:
+To install `@civictechmy/myds-style` in your project, run the installation command for the package manager of your choice:
 
 ```bash
 # npm
-npm i @govtechmy/myds-style
+npm i @civictechmy/myds-style
 
 # yarn
-yarn add @govtechmy/myds-style
+yarn add @civictechmy/myds-style
 
 # pnpm
-pnpm add @govtechmy/myds-style
+pnpm add @civictechmy/myds-style
 ```
 
 ## Usage
@@ -27,14 +27,14 @@ A. Import via CSS
 
 ```ts
 /* Place in the CSS entry point */
-@import "@govtechmy/myds-tailwindcss/full.css";
+@import "@civictechmy/myds-tailwindcss/full.css";
 ```
 
 B. Import via JS (Bundler)
 
 ```ts
 // Place in the bundle entry point (eg. index.{ts,js})
-import "@govtechmy/myds-tailwindcss/full.css";
+import "@civictechmy/myds-tailwindcss/full.css";
 ```
 
 MYDS is an open-source project and welcomes contributions from the public. To contribute:

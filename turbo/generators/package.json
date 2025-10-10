@@ -1,5 +1,5 @@
 {
-  "name": "@govtechmy/myds-cli",
+  "name": "@civictechmy/myds-cli",
   "private": true,
   "version": "0.0.0",
   "devDependencies": {

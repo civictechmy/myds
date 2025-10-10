@@ -1,4 +1,4 @@
-import { Button, ButtonIcon } from "@govtechmy/myds-react/button";
+import { Button, ButtonIcon } from "@civictechmy/myds-react/button";
 import {
   Footer,
   FooterLogo,
@@ -6,25 +6,25 @@ import {
   SiteInfo,
   SiteLink,
   SiteLinkGroup,
-} from "@govtechmy/myds-react/footer";
+} from "@civictechmy/myds-react/footer";
 import {
   FacebookIcon,
   InstagramIcon,
   SearchIcon,
   TwitterXIcon,
   YoutubeIcon,
-} from "@govtechmy/myds-react/icon";
-import { Link } from "@govtechmy/myds-react/link";
-import { Masthead } from "@govtechmy/myds-react/masthead";
+} from "@civictechmy/myds-react/icon";
+import { Link } from "@civictechmy/myds-react/link";
+import { Masthead } from "@civictechmy/myds-react/masthead";
 import {
   Navbar,
   NavbarAction,
   NavbarMenu,
   NavbarMenuDropdown,
   NavbarMenuItem,
-} from "@govtechmy/myds-react/navbar";
+} from "@civictechmy/myds-react/navbar";
 
-import { clx } from "@govtechmy/myds-react/utils";
+import { clx } from "@civictechmy/myds-react/utils";
 import { useState } from "react";
 
 const DemoNavbar = () => {

@@ -1,4 +1,4 @@
-# @govtechmy/myds-style
+# @civictechmy/myds-style
 
 ## 1.0.0
 
