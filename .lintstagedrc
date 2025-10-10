@@ -1,1 +1,4 @@
-{}
+{
+  "apps/docs/**/*.{js,ts,tsx,jsx}": [],
+  "packages/react/**/*.{js,ts,tsx,jsx}": []
+}
