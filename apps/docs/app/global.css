@@ -1,3 +1,5 @@
+@config "../tailwind.config.ts";
+
 @import "@civictechmy/myds-style/color.css";
 @import "@civictechmy/myds-style/light.css";
 @import "@civictechmy/myds-style/dark.css";
@@ -15,9 +17,7 @@
   --txt-accent: var(--_accent-dark);
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 @layer base {
   h1,
