@@ -1,0 +1,64 @@
+import fs from "fs";
+import path from "path";
+import { writeJsonFile, readFileContent, type RegistryComponent } from "./utils";
+
+/**
+ * Generate Icons Registry (@myds-icon)
+ * Creates individual registry entries for each icon
+ */
+
+const ICONS_DIR = path.join(__dirname, "../../packages/react/src/icons");
+const REGISTRY_OUTPUT = path.join(__dirname, "../../registry/icons/styles/default");
+
+async function main() {
+  console.log("🎨 Generating Icons Registry (@myds-icon)...\n");
+
+  const components: RegistryComponent[] = [];
+
+  // Read all icon files from src/icons/
+  const iconFiles = fs
+    .readdirSync(ICONS_DIR)
+    .filter((file) => file.endsWith(".tsx") && file !== "index.ts" && file !== "index.tsx");
+
+  console.log(`Found ${iconFiles.length} icon files\n`);
+
+  // Generate registry entry for each icon
+  for (const file of iconFiles) {
+    const iconName = file.replace(".tsx", "");
+    const iconPath = path.join(ICONS_DIR, file);
+    const content = readFileContent(iconPath);
+
+    // Transform imports if needed
+    const transformedContent = content;
+
+    const registryComponent: RegistryComponent = {
+      name: iconName,
+      type: "components:icon",
+      dependencies: [],
+      registryDependencies: [],
+      files: [
+        {
+          path: `components/ui/icons/${iconName}.tsx`,
+          content: transformedContent,
+          type: "components:icon",
+        },
+      ],
+    };
+
+    components.push(registryComponent);
+    const outputPath = path.join(REGISTRY_OUTPUT, `${iconName}.json`);
+    writeJsonFile(outputPath, registryComponent);
+
+    console.log(`✓ Generated: ${iconName}`);
+  }
+
+  console.log(`\n✅ Generated ${components.length} icon components`);
+  console.log(`📁 Output: ${REGISTRY_OUTPUT}`);
+
+  return components;
+}
+
+main().catch((error) => {
+  console.error("❌ Error generating icons registry:", error);
+  process.exit(1);
+});
