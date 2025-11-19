@@ -14,7 +14,9 @@
     "lint-staged": "lint-staged",
     "registry:generate": "tsx scripts/registry/generate.ts",
     "registry:build": "tsx scripts/registry/build.ts",
-    "registry:clean": "rm -rf registry/styles/default/*.json registry/index.json registry/schema.json"
+    "registry:clean": "rm -rf registry/styles/default/*.json registry/index.json registry/schema.json",
+    "deploy:prepare": "tsx scripts/deploy/prepare-gh-pages.ts",
+    "deploy:clean": "rm -rf deploy"
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.2",
