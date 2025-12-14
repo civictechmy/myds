@@ -15,8 +15,9 @@
     "registry:generate": "tsx scripts/registry/build-multi.ts",
     "registry:generate:ui": "tsx scripts/registry/generate-ui.ts",
     "registry:generate:icons": "tsx scripts/registry/generate-icons.ts",
+    "registry:generate:style": "tsx scripts/registry/generate-style.ts",
     "registry:build": "tsx scripts/registry/build-multi.ts",
-    "registry:clean": "rm -rf registry/ui registry/icons registry/index.json",
+    "registry:clean": "rm -rf registry/ui registry/icons registry/style registry/index.json",
     "deploy:prepare": "tsx scripts/deploy/prepare-gh-pages.ts",
     "deploy:clean": "rm -rf deploy"
   },

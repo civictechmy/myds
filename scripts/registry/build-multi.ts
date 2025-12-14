@@ -14,6 +14,7 @@ import { writeJsonFile } from "./utils";
 const REGISTRY_DIR = path.join(__dirname, "../../registry");
 const UI_DIR = path.join(REGISTRY_DIR, "ui/styles/default");
 const ICONS_DIR = path.join(REGISTRY_DIR, "icons/styles/default");
+const STYLE_DIR = path.join(REGISTRY_DIR, "style/styles/default");
 
 function log(message: string) {
   console.log(`📦 ${message}`);
@@ -32,6 +33,12 @@ async function generateRegistries() {
   // Step 2: Generate Icons registry
   console.log("Step 2: Generating Icons Registry (@myds-icon)...");
   execSync("tsx scripts/registry/generate-icons.ts", { stdio: "inherit" });
+
+  console.log("\n" + "-".repeat(60) + "\n");
+
+  // Step 3: Generate Style registry
+  console.log("Step 3: Generating Style Registry (@myds-style)...");
+  execSync("tsx scripts/registry/generate-style.ts", { stdio: "inherit" });
 
   console.log("\n" + "-".repeat(60) + "\n");
 }
@@ -116,7 +123,47 @@ async function buildIconsIndex() {
   return { components: components.length };
 }
 
-async function buildRootIndex(uiCount: number, iconsCount: number) {
+async function buildStyleIndex() {
+  log("Building Style registry index...");
+
+  const files = fs.readdirSync(STYLE_DIR).filter((file) => file.endsWith(".json"));
+  const components = [];
+
+  for (const file of files) {
+    const filePath = path.join(STYLE_DIR, file);
+    const content = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+
+    components.push({
+      name: content.name,
+      type: content.type,
+      dependencies: content.dependencies || [],
+      registryDependencies: content.registryDependencies || [],
+      files: [`styles/default/${file}`],
+    });
+  }
+
+  components.sort((a, b) => a.name.localeCompare(b.name));
+
+  const packageJson = JSON.parse(
+    fs.readFileSync(path.join(__dirname, "../../package.json"), "utf-8")
+  );
+
+  const index = {
+    name: "@myds-style",
+    version: packageJson.version || "2.0.0",
+    description: "MYDS Tailwind v4 styling system",
+    components,
+  };
+
+  const indexPath = path.join(REGISTRY_DIR, "style/index.json");
+  writeJsonFile(indexPath, index);
+
+  log(`✓ Style index created with ${components.length} components`);
+
+  return { components: components.length };
+}
+
+async function buildRootIndex(uiCount: number, iconsCount: number, styleCount: number) {
   log("Building root registry index...");
 
   const packageJson = JSON.parse(
@@ -140,8 +187,14 @@ async function buildRootIndex(uiCount: number, iconsCount: number) {
         description: "Icon library",
         components: iconsCount,
       },
+      style: {
+        name: "@myds-style",
+        url: "/registry/style",
+        description: "Tailwind v4 styling system",
+        components: styleCount,
+      },
     },
-    totalComponents: uiCount + iconsCount,
+    totalComponents: uiCount + iconsCount + styleCount,
   };
 
   const rootIndexPath = path.join(REGISTRY_DIR, "index.json");
@@ -164,7 +217,7 @@ async function createSchemas() {
       },
       type: {
         type: "string",
-        enum: ["components:ui", "components:layout", "components:lib", "components:icon"],
+        enum: ["components:ui", "components:layout", "components:lib", "components:icon", "components:style"],
         description: "Component type",
       },
       dependencies: {
@@ -194,6 +247,7 @@ async function createSchemas() {
 
   writeJsonFile(path.join(REGISTRY_DIR, "ui/schema.json"), schema);
   writeJsonFile(path.join(REGISTRY_DIR, "icons/schema.json"), schema);
+  writeJsonFile(path.join(REGISTRY_DIR, "style/schema.json"), schema);
 
   log("✓ Schemas created");
 }
@@ -203,12 +257,13 @@ async function main() {
     // Generate all registries
     await generateRegistries();
 
-    console.log("Step 3: Building registry indexes...\n");
+    console.log("Step 4: Building registry indexes...\n");
 
     // Build indexes
     const uiStats = await buildUIIndex();
     const iconsStats = await buildIconsIndex();
-    await buildRootIndex(uiStats.components, iconsStats.components);
+    const styleStats = await buildStyleIndex();
+    await buildRootIndex(uiStats.components, iconsStats.components, styleStats.components);
     await createSchemas();
 
     console.log("\n" + "=".repeat(60));
@@ -216,12 +271,14 @@ async function main() {
     console.log("Registries:");
     console.log(`  📦 @myds-ui: ${uiStats.components} components`);
     console.log(`  🎨 @myds-icon: ${iconsStats.components} icons`);
-    console.log(`  📊 Total: ${uiStats.components + iconsStats.components} components\n`);
+    console.log(`  🎨 @myds-style: ${styleStats.components} style components`);
+    console.log(`  📊 Total: ${uiStats.components + iconsStats.components + styleStats.components} components\n`);
     console.log("Structure:");
     console.log("  registry/");
     console.log("  ├── index.json (root catalog)");
     console.log("  ├── ui/ (components registry)");
-    console.log("  └── icons/ (icons registry)");
+    console.log("  ├── icons/ (icons registry)");
+    console.log("  └── style/ (style registry)");
     console.log("=".repeat(60) + "\n");
   } catch (error) {
     console.error("❌ Build failed:", error);

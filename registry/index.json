@@ -14,7 +14,13 @@
       "url": "/registry/icons",
       "description": "Icon library",
       "components": 220
+    },
+    "style": {
+      "name": "@myds-style",
+      "url": "/registry/style",
+      "description": "Tailwind v4 styling system",
+      "components": 6
     }
   },
-  "totalComponents": 262
+  "totalComponents": 268
 }

@@ -1,0 +1,75 @@
+{
+  "name": "@myds-style",
+  "version": "2.0.0",
+  "description": "MYDS Tailwind v4 styling system",
+  "components": [
+    {
+      "name": "base-styles",
+      "type": "components:style",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/base-styles.json"
+      ]
+    },
+    {
+      "name": "colors",
+      "type": "components:style",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/colors.json"
+      ]
+    },
+    {
+      "name": "myds-init",
+      "type": "components:style",
+      "dependencies": [],
+      "registryDependencies": [
+        "colors",
+        "theme-light",
+        "theme-dark",
+        "theme-config",
+        "base-styles"
+      ],
+      "files": [
+        "styles/default/myds-init.json"
+      ]
+    },
+    {
+      "name": "theme-config",
+      "type": "components:style",
+      "dependencies": [],
+      "registryDependencies": [
+        "colors",
+        "theme-light",
+        "theme-dark"
+      ],
+      "files": [
+        "styles/default/theme-config.json"
+      ]
+    },
+    {
+      "name": "theme-dark",
+      "type": "components:style",
+      "dependencies": [],
+      "registryDependencies": [
+        "colors"
+      ],
+      "files": [
+        "styles/default/theme-dark.json"
+      ]
+    },
+    {
+      "name": "theme-light",
+      "type": "components:style",
+      "dependencies": [],
+      "registryDependencies": [
+        "colors"
+      ],
+      "files": [
+        "styles/default/theme-light.json"
+      ]
+    }
+  ]
+}

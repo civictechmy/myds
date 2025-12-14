@@ -17,7 +17,8 @@
         "components:ui",
         "components:layout",
         "components:lib",
-        "components:icon"
+        "components:icon",
+        "components:style"
       ],
       "description": "Component type"
     },
