@@ -91,10 +91,11 @@ const SiteLinkGroup: ForwardRefExoticComponent<SiteLinkGroupProps> = forwardRef(
       .map((child, index) => {
         if (!isValidElement(child)) return child;
 
-        return cloneElement(child as ReactElement<any>, {
+        const childElement = child as ReactElement<{ className?: string }>;
+        return cloneElement(childElement, {
           className: clx(
             "line-clamp-1 lg:col-span-full text-txt-black-700",
-            child.props.className,
+            childElement.props.className,
           ),
           key: index,
         });

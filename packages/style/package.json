@@ -1,9 +1,11 @@
 {
   "name": "@civictechmy/myds-style",
   "version": "1.0.0",
+  "private": true,
+  "deprecated": "This package is deprecated. Use MYDS v2 via shadcn registry instead: npx shadcn@latest add myds-init --registry=https://civictechmy.github.io/myds/registry/style",
   "scripts": {
-    "dev": "tailwindcss -i ./styles/input.tailwind.css -o ./styles/output.tailwind.css --watch",
-    "build": "tailwindcss -i ./styles/input.tailwind.css -o ./dist/index.css --minify"
+    "dev": "tailwindcss --input ./styles/input.tailwind.css --output ./styles/output.tailwind.css --watch",
+    "build": "tailwindcss --input ./styles/input.tailwind.css --output ./dist/index.css --minify"
   },
   "files": [
     "README.md",
@@ -32,20 +34,19 @@
     }
   },
   "dependencies": {
-    "tailwindcss": "^3.4.10",
+    "@tailwindcss/cli": "^4.1.17",
+    "@tailwindcss/postcss": "^4.1.17",
+    "tailwindcss": "^4.1.17",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@types/node": "^22.7.4",
-    "@types/postcss-js": "^4.0.4",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.47",
-    "postcss-import": "^16.1.0",
-    "postcss-js": "^4.0.1"
+    "@types/node": "^24.10.1",
+    "@types/postcss-js": "^4.1.0",
+    "postcss": "^8.5.6",
+    "postcss-js": "^5.0.1"
   },
   "peerDependencies": {
-    "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.10"
+    "tailwindcss": "^4.0.0"
   }
 }

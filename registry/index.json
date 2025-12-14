@@ -1,0 +1,26 @@
+{
+  "name": "@civictechmy/myds",
+  "version": "2.0.0",
+  "description": "Malaysia Design System - Multi-registry component library",
+  "registries": {
+    "ui": {
+      "name": "@myds-ui",
+      "url": "/registry/ui",
+      "description": "UI components, hooks, and utilities",
+      "components": 42
+    },
+    "icons": {
+      "name": "@myds-icon",
+      "url": "/registry/icons",
+      "description": "Icon library",
+      "components": 220
+    },
+    "style": {
+      "name": "@myds-style",
+      "url": "/registry/style",
+      "description": "Tailwind v4 styling system",
+      "components": 6
+    }
+  },
+  "totalComponents": 268
+}

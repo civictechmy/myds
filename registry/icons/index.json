@@ -1,0 +1,1987 @@
+{
+  "name": "@myds-icon",
+  "version": "2.0.0",
+  "description": "MYDS icon library",
+  "components": [
+    {
+      "name": "accessible",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/accessible.json"
+      ]
+    },
+    {
+      "name": "align-center",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/align-center.json"
+      ]
+    },
+    {
+      "name": "align-justify",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/align-justify.json"
+      ]
+    },
+    {
+      "name": "align-left",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/align-left.json"
+      ]
+    },
+    {
+      "name": "align-right",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/align-right.json"
+      ]
+    },
+    {
+      "name": "arrow-back",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/arrow-back.json"
+      ]
+    },
+    {
+      "name": "arrow-back-close",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/arrow-back-close.json"
+      ]
+    },
+    {
+      "name": "arrow-down",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/arrow-down.json"
+      ]
+    },
+    {
+      "name": "arrow-forward",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/arrow-forward.json"
+      ]
+    },
+    {
+      "name": "arrow-forward-close",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/arrow-forward-close.json"
+      ]
+    },
+    {
+      "name": "arrow-incoming",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/arrow-incoming.json"
+      ]
+    },
+    {
+      "name": "arrow-outgoing",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/arrow-outgoing.json"
+      ]
+    },
+    {
+      "name": "arrow-up",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/arrow-up.json"
+      ]
+    },
+    {
+      "name": "attachment",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/attachment.json"
+      ]
+    },
+    {
+      "name": "bell",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/bell.json"
+      ]
+    },
+    {
+      "name": "bold",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/bold.json"
+      ]
+    },
+    {
+      "name": "bolt",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/bolt.json"
+      ]
+    },
+    {
+      "name": "book",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/book.json"
+      ]
+    },
+    {
+      "name": "bulleted-list",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/bulleted-list.json"
+      ]
+    },
+    {
+      "name": "button",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/button.json"
+      ]
+    },
+    {
+      "name": "calendar",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/calendar.json"
+      ]
+    },
+    {
+      "name": "carousel",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/carousel.json"
+      ]
+    },
+    {
+      "name": "chat-bubble",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/chat-bubble.json"
+      ]
+    },
+    {
+      "name": "check",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/check.json"
+      ]
+    },
+    {
+      "name": "check-circle",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/check-circle.json"
+      ]
+    },
+    {
+      "name": "check-circle-fill",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/check-circle-fill.json"
+      ]
+    },
+    {
+      "name": "check-shield",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/check-shield.json"
+      ]
+    },
+    {
+      "name": "check-star",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/check-star.json"
+      ]
+    },
+    {
+      "name": "chevron-down",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/chevron-down.json"
+      ]
+    },
+    {
+      "name": "chevron-down-fill",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/chevron-down-fill.json"
+      ]
+    },
+    {
+      "name": "chevron-left",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/chevron-left.json"
+      ]
+    },
+    {
+      "name": "chevron-left-fill",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/chevron-left-fill.json"
+      ]
+    },
+    {
+      "name": "chevron-right",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/chevron-right.json"
+      ]
+    },
+    {
+      "name": "chevron-right-fill",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/chevron-right-fill.json"
+      ]
+    },
+    {
+      "name": "chevron-up",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/chevron-up.json"
+      ]
+    },
+    {
+      "name": "chevron-up-fill",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/chevron-up-fill.json"
+      ]
+    },
+    {
+      "name": "clock",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/clock.json"
+      ]
+    },
+    {
+      "name": "column-collapse",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/column-collapse.json"
+      ]
+    },
+    {
+      "name": "column-expand",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/column-expand.json"
+      ]
+    },
+    {
+      "name": "component",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/component.json"
+      ]
+    },
+    {
+      "name": "copy",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/copy.json"
+      ]
+    },
+    {
+      "name": "cross",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/cross.json"
+      ]
+    },
+    {
+      "name": "cross-circle",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/cross-circle.json"
+      ]
+    },
+    {
+      "name": "cross-fill",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/cross-fill.json"
+      ]
+    },
+    {
+      "name": "cursor",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/cursor.json"
+      ]
+    },
+    {
+      "name": "database",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/database.json"
+      ]
+    },
+    {
+      "name": "desktop",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/desktop.json"
+      ]
+    },
+    {
+      "name": "direction",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/direction.json"
+      ]
+    },
+    {
+      "name": "document",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/document.json"
+      ]
+    },
+    {
+      "name": "document-add",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/document-add.json"
+      ]
+    },
+    {
+      "name": "document-filled",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/document-filled.json"
+      ]
+    },
+    {
+      "name": "document-minus",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/document-minus.json"
+      ]
+    },
+    {
+      "name": "download",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/download.json"
+      ]
+    },
+    {
+      "name": "drop-arrow-down",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/drop-arrow-down.json"
+      ]
+    },
+    {
+      "name": "duplicate",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/duplicate.json"
+      ]
+    },
+    {
+      "name": "edit",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/edit.json"
+      ]
+    },
+    {
+      "name": "ellipsis",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/ellipsis.json"
+      ]
+    },
+    {
+      "name": "ellipsis-vertical",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/ellipsis-vertical.json"
+      ]
+    },
+    {
+      "name": "email",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/email.json"
+      ]
+    },
+    {
+      "name": "excel",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/excel.json"
+      ]
+    },
+    {
+      "name": "excel-media",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/excel-media.json"
+      ]
+    },
+    {
+      "name": "expand",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/expand.json"
+      ]
+    },
+    {
+      "name": "eye-hide",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/eye-hide.json"
+      ]
+    },
+    {
+      "name": "eye-show",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/eye-show.json"
+      ]
+    },
+    {
+      "name": "facebook",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/facebook.json"
+      ]
+    },
+    {
+      "name": "figma",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/figma.json"
+      ]
+    },
+    {
+      "name": "filter",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/filter.json"
+      ]
+    },
+    {
+      "name": "filter-asc",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/filter-asc.json"
+      ]
+    },
+    {
+      "name": "filter-desc",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/filter-desc.json"
+      ]
+    },
+    {
+      "name": "flag",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/flag.json"
+      ]
+    },
+    {
+      "name": "folder",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/folder.json"
+      ]
+    },
+    {
+      "name": "folder-minus",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/folder-minus.json"
+      ]
+    },
+    {
+      "name": "folder-plus",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/folder-plus.json"
+      ]
+    },
+    {
+      "name": "font",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/font.json"
+      ]
+    },
+    {
+      "name": "forms",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/forms.json"
+      ]
+    },
+    {
+      "name": "gallery",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/gallery.json"
+      ]
+    },
+    {
+      "name": "github",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/github.json"
+      ]
+    },
+    {
+      "name": "globe",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/globe.json"
+      ]
+    },
+    {
+      "name": "google",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/google.json"
+      ]
+    },
+    {
+      "name": "govt-office",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/govt-office.json"
+      ]
+    },
+    {
+      "name": "grid",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/grid.json"
+      ]
+    },
+    {
+      "name": "hamburger-menu",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/hamburger-menu.json"
+      ]
+    },
+    {
+      "name": "heart",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/heart.json"
+      ]
+    },
+    {
+      "name": "home",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/home.json"
+      ]
+    },
+    {
+      "name": "info",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/info.json"
+      ]
+    },
+    {
+      "name": "input-field",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/input-field.json"
+      ]
+    },
+    {
+      "name": "instagram",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/instagram.json"
+      ]
+    },
+    {
+      "name": "italic",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/italic.json"
+      ]
+    },
+    {
+      "name": "legacy-ambulance-mers",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-ambulance-mers.json"
+      ]
+    },
+    {
+      "name": "legacy-ballot-spr",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-ballot-spr.json"
+      ]
+    },
+    {
+      "name": "legacy-blood-pdn",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-blood-pdn.json"
+      ]
+    },
+    {
+      "name": "legacy-bnm",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-bnm.json"
+      ]
+    },
+    {
+      "name": "legacy-book-moe",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-book-moe.json"
+      ]
+    },
+    {
+      "name": "legacy-car-jpj",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-car-jpj.json"
+      ]
+    },
+    {
+      "name": "legacy-document-mof",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-document-mof.json"
+      ]
+    },
+    {
+      "name": "legacy-dosm",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-dosm.json"
+      ]
+    },
+    {
+      "name": "legacy-fire-bomba",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-fire-bomba.json"
+      ]
+    },
+    {
+      "name": "legacy-flood-jps",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-flood-jps.json"
+      ]
+    },
+    {
+      "name": "legacy-helmet-jpa",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-helmet-jpa.json"
+      ]
+    },
+    {
+      "name": "legacy-helping-hand-icu-jpm",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-helping-hand-icu-jpm.json"
+      ]
+    },
+    {
+      "name": "legacy-hospital-moh",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-hospital-moh.json"
+      ]
+    },
+    {
+      "name": "legacy-identity-jpn",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-identity-jpn.json"
+      ]
+    },
+    {
+      "name": "legacy-internet-mcmc",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-internet-mcmc.json"
+      ]
+    },
+    {
+      "name": "legacy-jakoa",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-jakoa.json"
+      ]
+    },
+    {
+      "name": "legacy-jata-negara",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-jata-negara.json"
+      ]
+    },
+    {
+      "name": "legacy-light-bulb-ipr-epu",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-light-bulb-ipr-epu.json"
+      ]
+    },
+    {
+      "name": "legacy-mampu",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mampu.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-ambulance-mers",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-ambulance-mers.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-ballot-spr",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-ballot-spr.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-blood-pdn",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-blood-pdn.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-bnm",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-bnm.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-book-moe",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-book-moe.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-car-jpj",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-car-jpj.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-document-mof",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-document-mof.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-dosm",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-dosm.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-fire-bomba",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-fire-bomba.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-flood-warning",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-flood-warning.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-helmet-jpa",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-helmet-jpa.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-helping-hands-icu-jpm",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-helping-hands-icu-jpm.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-hospital-moh",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-hospital-moh.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-identity-jpn",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-identity-jpn.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-internet-mcmc",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-internet-mcmc.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-jakoa",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-jakoa.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-light-bulb-ipr-epu",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-light-bulb-ipr-epu.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-mampu",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-mampu.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-money-epf",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-money-epf.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-money-kwap",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-money-kwap.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-money-lhdn",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-money-lhdn.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-passport-imigresen",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-passport-imigresen.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-phcorp",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-phcorp.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-police-pdrm",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-police-pdrm.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-ribbon-ntrc",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-ribbon-ntrc.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-socso",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-socso.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-train-mot",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-train-mot.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-unhcr",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-unhcr.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-weather-climate",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-weather-climate.json"
+      ]
+    },
+    {
+      "name": "legacy-mini-website",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-mini-website.json"
+      ]
+    },
+    {
+      "name": "legacy-money-epf",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-money-epf.json"
+      ]
+    },
+    {
+      "name": "legacy-money-kwap",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-money-kwap.json"
+      ]
+    },
+    {
+      "name": "legacy-money-lhdn",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-money-lhdn.json"
+      ]
+    },
+    {
+      "name": "legacy-passport-imigresen",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-passport-imigresen.json"
+      ]
+    },
+    {
+      "name": "legacy-phcorp",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-phcorp.json"
+      ]
+    },
+    {
+      "name": "legacy-police-pdrm",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-police-pdrm.json"
+      ]
+    },
+    {
+      "name": "legacy-ribbon-ntrc",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-ribbon-ntrc.json"
+      ]
+    },
+    {
+      "name": "legacy-socso-perkeso",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-socso-perkeso.json"
+      ]
+    },
+    {
+      "name": "legacy-train-mot",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-train-mot.json"
+      ]
+    },
+    {
+      "name": "legacy-unhcr",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-unhcr.json"
+      ]
+    },
+    {
+      "name": "legacy-weather-met",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/legacy-weather-met.json"
+      ]
+    },
+    {
+      "name": "link",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/link.json"
+      ]
+    },
+    {
+      "name": "link-diagonal",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/link-diagonal.json"
+      ]
+    },
+    {
+      "name": "linkedin",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/linkedin.json"
+      ]
+    },
+    {
+      "name": "list",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/list.json"
+      ]
+    },
+    {
+      "name": "lock",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/lock.json"
+      ]
+    },
+    {
+      "name": "lock-2",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/lock-2.json"
+      ]
+    },
+    {
+      "name": "lock-fill",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/lock-fill.json"
+      ]
+    },
+    {
+      "name": "logout",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/logout.json"
+      ]
+    },
+    {
+      "name": "malaysia-flag",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/malaysia-flag.json"
+      ]
+    },
+    {
+      "name": "map",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/map.json"
+      ]
+    },
+    {
+      "name": "megaphone",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/megaphone.json"
+      ]
+    },
+    {
+      "name": "minus",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/minus.json"
+      ]
+    },
+    {
+      "name": "minus-circle",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/minus-circle.json"
+      ]
+    },
+    {
+      "name": "mobile",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/mobile.json"
+      ]
+    },
+    {
+      "name": "money",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/money.json"
+      ]
+    },
+    {
+      "name": "moon",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/moon.json"
+      ]
+    },
+    {
+      "name": "numbered-list",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/numbered-list.json"
+      ]
+    },
+    {
+      "name": "org-chart",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/org-chart.json"
+      ]
+    },
+    {
+      "name": "pause",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/pause.json"
+      ]
+    },
+    {
+      "name": "pdf",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/pdf.json"
+      ]
+    },
+    {
+      "name": "pdf-media",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/pdf-media.json"
+      ]
+    },
+    {
+      "name": "phone",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/phone.json"
+      ]
+    },
+    {
+      "name": "pin",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/pin.json"
+      ]
+    },
+    {
+      "name": "placeholder",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/placeholder.json"
+      ]
+    },
+    {
+      "name": "play",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/play.json"
+      ]
+    },
+    {
+      "name": "plus",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/plus.json"
+      ]
+    },
+    {
+      "name": "plus-circle",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/plus-circle.json"
+      ]
+    },
+    {
+      "name": "powerpoint-media",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/powerpoint-media.json"
+      ]
+    },
+    {
+      "name": "printer",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/printer.json"
+      ]
+    },
+    {
+      "name": "putrajaya",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/putrajaya.json"
+      ]
+    },
+    {
+      "name": "qr-code",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/qr-code.json"
+      ]
+    },
+    {
+      "name": "question-circle",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/question-circle.json"
+      ]
+    },
+    {
+      "name": "redo",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/redo.json"
+      ]
+    },
+    {
+      "name": "reload",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/reload.json"
+      ]
+    },
+    {
+      "name": "reset-style",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/reset-style.json"
+      ]
+    },
+    {
+      "name": "rss",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/rss.json"
+      ]
+    },
+    {
+      "name": "search",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/search.json"
+      ]
+    },
+    {
+      "name": "section",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/section.json"
+      ]
+    },
+    {
+      "name": "setting",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/setting.json"
+      ]
+    },
+    {
+      "name": "share",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/share.json"
+      ]
+    },
+    {
+      "name": "star",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/star.json"
+      ]
+    },
+    {
+      "name": "star-fill",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/star-fill.json"
+      ]
+    },
+    {
+      "name": "strikethrough",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/strikethrough.json"
+      ]
+    },
+    {
+      "name": "sun",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/sun.json"
+      ]
+    },
+    {
+      "name": "swap",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/swap.json"
+      ]
+    },
+    {
+      "name": "table",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/table.json"
+      ]
+    },
+    {
+      "name": "tablet",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/tablet.json"
+      ]
+    },
+    {
+      "name": "telegram",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/telegram.json"
+      ]
+    },
+    {
+      "name": "text",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/text.json"
+      ]
+    },
+    {
+      "name": "thumbs-down",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/thumbs-down.json"
+      ]
+    },
+    {
+      "name": "thumbs-up",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/thumbs-up.json"
+      ]
+    },
+    {
+      "name": "tiktok",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/tiktok.json"
+      ]
+    },
+    {
+      "name": "trash",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/trash.json"
+      ]
+    },
+    {
+      "name": "trophy",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/trophy.json"
+      ]
+    },
+    {
+      "name": "twitter-x",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/twitter-x.json"
+      ]
+    },
+    {
+      "name": "underline",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/underline.json"
+      ]
+    },
+    {
+      "name": "undo",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/undo.json"
+      ]
+    },
+    {
+      "name": "unlink",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/unlink.json"
+      ]
+    },
+    {
+      "name": "upload",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/upload.json"
+      ]
+    },
+    {
+      "name": "user",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/user.json"
+      ]
+    },
+    {
+      "name": "user-group",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/user-group.json"
+      ]
+    },
+    {
+      "name": "video",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/video.json"
+      ]
+    },
+    {
+      "name": "warning",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/warning.json"
+      ]
+    },
+    {
+      "name": "warning-circle",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/warning-circle.json"
+      ]
+    },
+    {
+      "name": "warning-diamond",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/warning-diamond.json"
+      ]
+    },
+    {
+      "name": "warning-fill",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/warning-fill.json"
+      ]
+    },
+    {
+      "name": "whatsapp",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/whatsapp.json"
+      ]
+    },
+    {
+      "name": "word",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/word.json"
+      ]
+    },
+    {
+      "name": "word-media",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/word-media.json"
+      ]
+    },
+    {
+      "name": "youtube",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/youtube.json"
+      ]
+    },
+    {
+      "name": "zoom-in",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/zoom-in.json"
+      ]
+    },
+    {
+      "name": "zoom-out",
+      "type": "components:icon",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "styles/default/zoom-out.json"
+      ]
+    }
+  ]
+}

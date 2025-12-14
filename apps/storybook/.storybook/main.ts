@@ -32,5 +32,15 @@ const config: StorybookConfig = {
       },
     },
   }),
+  viteFinal: async (config) => {
+    // Configure base path for GitHub Pages deployment
+    // Can be overridden with BASE_PATH environment variable
+    const basePath = process.env.BASE_PATH || "/";
+
+    return {
+      ...config,
+      base: basePath,
+    };
+  },
 };
 export default config;
